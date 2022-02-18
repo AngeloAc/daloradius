@@ -60,16 +60,16 @@ $onlyDefaultLocation = !(array_key_exists('CONFIG_LOCATIONS', $configValues)
                     <h1>
                         <a href="index.php">
                            <!-- <img src="images/daloradius_small.png" border="0" /> -->
-                          
+                           <img src="images/oinet.png" border="0" width="120" height="120"/> 
                         </a>
                     </h1>
-                    <h2><?= t('all','copyright1') ?></h2>
+                   
                     <br/>
                 </div><!-- #header -->
 		
         
                 <div id="main">
-                    <h2 class="form-header"><?= t('text','LoginRequired') ?></h2>
+                    <h2 style="textAlign: center" class="form-header"><?= t('text','LoginRequired') ?></h2>
                     
                      <form class="form-box" name="login" action="dologin.php" method="post">
                             
@@ -119,9 +119,7 @@ $onlyDefaultLocation = !(array_key_exists('CONFIG_LOCATIONS', $configValues)
                     
                 </div><!-- #main -->
         
-                <div id="footer">
-                    <?php include('page-footer.php'); ?>
-                </div><!-- #footer -->
+              
                 
             </div><!-- #innerwrapper -->
         </div><!-- #wrapper -->
